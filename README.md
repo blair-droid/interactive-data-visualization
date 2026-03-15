@@ -7,6 +7,7 @@ The goal is to analyze relationships between purchases, cash advances, credit li
 ---
 
 # Project Structure
+```
 credit-card-eda
 │
 ├── data
@@ -24,6 +25,7 @@ credit-card-eda
 │   └── dashboard.png
 │
 └── README.md
+```
 
 # Features
 
