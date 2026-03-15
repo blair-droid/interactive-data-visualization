@@ -87,7 +87,7 @@ The dashboard includes:
 
 ---
 
-## Key Insights
+# Key Insights
 
 - Strong correlation between purchases and one-off purchases.
 - Customers with higher credit limits tend to maintain higher balances.
