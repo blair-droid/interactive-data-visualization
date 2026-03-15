@@ -1,25 +1,68 @@
-# About dataset
-The sample dataset summarizes the usage behavior of about 9000 active credit card holders during the last 6 months. The file is at a customer level with 18 behavioral variables.
+## About the Dataset
 
-# Columns
-CUST_ID : Unique identification of Credit Card holder (Categorical)
-BALANCE : Balance amount left in their account to make purchases 
-PURCHASES : Amount of purchases made from account
-ONEOFF_PURCHASES : Maximum purchase amount done in one-go
-INSTALLMENTS_PURCHASES : Amount of purchase done in installment
-CASH_ADVANCE : Cash in advance given by the user
-CASHADVANCETRX : Number of Transactions made with "Cash in Advanced"
-PURCHASES_TRX : Numbe of purchase transactions made
-CREDIT_LIMIT : Limit of Credit Card for user
-PAYMENTS : Amount of Payment done by user
-MINIMUM_PAYMENTS : Minimum amount of payments made by user
-PRCFULLPAYMENT : Percent of full payment paid by user
+The dataset contains behavioral information about approximately **4700 credit card customers** over a recent observation period.  
+Each row represents a single customer and includes financial activity metrics such as purchases, balances, credit limits, and payment behavior.
 
-## Frequency data
-BALANCE FREQUENCY : How frequently the Balance is updated, score between 0 and 1 (1 = frequently updated, 0 = not frequently updated)
-PURCHASES FREQUENCY : How frequently the Purchases are being made, score between 0 and 1 (1 = frequently purchased, 0 = not frequently purchased)
-ONEOFFPURCHASES FREQUENCY : How frequently Purchases are happening in one-go (1 = frequently purchased, 0 = not frequently purchased)
-PURCHASESINSTALLMENTS FREQUENCY : How frequently purchases in installments are being done (1 = frequently done, 0 = not frequently done)
-CASHADVANCE FREQUENCY : How frequently the cash in advance being paid
+The dataset is used to analyze relationships between spending behavior, credit usage, and repayment patterns.
 
-TENURE : Tenure of credit card service for user
+---
+
+## Variables
+
+**CUST_ID**  
+Unique identifier of the credit card holder.
+
+**BALANCE**  
+Remaining balance in the credit card account available for purchases.
+
+**PURCHASES**  
+Total amount of purchases made using the credit card.
+
+**ONEOFF_PURCHASES**  
+Amount spent on one-time purchases (single transactions).
+
+**INSTALLMENTS_PURCHASES**  
+Amount spent on purchases made in installments.
+
+**CASH_ADVANCE**  
+Cash withdrawn using the credit card.
+
+**CASH_ADVANCE_TRX**  
+Number of cash advance transactions.
+
+**PURCHASES_TRX**  
+Total number of purchase transactions.
+
+**CREDIT_LIMIT**  
+Maximum credit limit assigned to the cardholder.
+
+**PAYMENTS**  
+Total payments made by the cardholder.
+
+**MINIMUM_PAYMENTS**  
+Minimum required payments made by the cardholder.
+
+**PRC_FULL_PAYMENT**  
+Percentage of months where the customer paid the full balance.
+
+---
+
+## Frequency Variables
+
+These variables measure how frequently certain actions occur. Values range between **0 and 1**, where:
+
+- **1** = action occurs frequently  
+- **0** = action occurs rarely or not at all  
+
+**BALANCE_FREQUENCY** – frequency of balance updates  
+**PURCHASES_FREQUENCY** – frequency of purchase activity  
+**ONEOFF_PURCHASES_FREQUENCY** – frequency of single large purchases  
+**PURCHASES_INSTALLMENTS_FREQUENCY** – frequency of installment purchases  
+**CASH_ADVANCE_FREQUENCY** – frequency of cash advances
+
+---
+
+## TENURE
+
+**TENURE**  
+Number of months the customer has held the credit card.
