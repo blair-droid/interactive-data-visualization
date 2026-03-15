@@ -82,6 +82,14 @@ The dashboard includes:
 
 ---
 
+## Key Insights
+
+- Strong correlation between purchases and one-off purchases.
+- Customers with higher credit limits tend to maintain higher balances.
+- Cash advance usage represents a distinct group of customer behavior.
+
+---
+
 # Author
 
 Ondřej Kratina
