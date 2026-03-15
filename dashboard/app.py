@@ -8,7 +8,7 @@ import plotly.graph_objects as go
 # =========================
 # Load data
 # =========================
-DATA_PATH = "credit_cards_clean.csv"
+DATA_PATH = "data/credit_cards_clean.csv"
 df = pd.read_csv(DATA_PATH)
 
 if "CUST_ID" not in df.columns:
