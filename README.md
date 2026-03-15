@@ -72,6 +72,8 @@ http://127.0.0.1:8050/
 
 # Example Visualizations
 
+![Dashboard](images/Dashboard.png)
+
 The dashboard includes:
 
 - Bubble scatter plot for exploring relationships between variables
