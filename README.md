@@ -20,6 +20,9 @@ credit-card-eda
 ├── dashboard
 │   └── app.py
 │
+├── images
+│   └── dashboard.png
+│
 └── README.md
 
 # Features
